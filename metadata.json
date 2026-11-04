@@ -1,0 +1,6 @@
+{
+  "name": "CabeAí — Seu móvel cabe. E chega até lá?",
+  "description": "Descubra se móveis e eletrodomésticos cabem no seu espaço e conseguem passar por portas, corredores e elevadores antes de comprar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
