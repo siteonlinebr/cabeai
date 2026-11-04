@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CabeAí — Redirecionando...</title>
+    <script>
+      // Redirecionamento amigável para GitHub Pages em caso de acesso direto ou refresh
+      var path = window.location.pathname;
+      var repoName = path.split('/')[1] ? '/' + path.split('/')[1] + '/' : '/';
+      window.location.replace(window.location.origin + repoName);
+    </script>
+  </head>
+  <body style="font-family: sans-serif; background: #F7F5EF; color: #172A2B; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0;">
+    <div style="text-align: center;">
+      <h1 style="color: #347F6C;">CabeAí</h1>
+      <p>Redirecionando para a aplicação...</p>
+      <a href="./" style="color: #F47736; text-decoration: none; font-weight: bold;">Clique aqui se não for redirecionado automaticamente</a>
+    </div>
+  </body>
+</html>
